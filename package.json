@@ -1,0 +1,82 @@
+{
+  "_args": [
+    [
+      {
+        "hosted": {
+          "directUrl": "https://raw.githubusercontent.com/satishsa1107/transporter-node/master/package.json",
+          "gitUrl": "git://github.com/satishsa1107/transporter-node.git",
+          "httpsUrl": "git+https://github.com/satishsa1107/transporter-node.git",
+          "shortcut": "github:satishsa1107/transporter-node",
+          "ssh": "git@github.com:satishsa1107/transporter-node.git",
+          "sshUrl": "git+ssh://git@github.com/satishsa1107/transporter-node.git",
+          "type": "github"
+        },
+        "name": "transporter-node",
+        "raw": "transporter-node@github:satishsa1107/transporter-node",
+        "rawSpec": "github:satishsa1107/transporter-node",
+        "scope": null,
+        "spec": "github:satishsa1107/transporter-node",
+        "type": "hosted"
+      },
+      "/home/alexander/projects/hindsight/hindsight-connect"
+    ]
+  ],
+  "_from": "satishsa1107/transporter-node",
+  "_id": "transporter-node@1.1.23",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/transporter-node",
+  "_phantomChildren": {},
+  "_requested": {
+    "hosted": {
+      "directUrl": "https://raw.githubusercontent.com/satishsa1107/transporter-node/master/package.json",
+      "gitUrl": "git://github.com/satishsa1107/transporter-node.git",
+      "httpsUrl": "git+https://github.com/satishsa1107/transporter-node.git",
+      "shortcut": "github:satishsa1107/transporter-node",
+      "ssh": "git@github.com:satishsa1107/transporter-node.git",
+      "sshUrl": "git+ssh://git@github.com/satishsa1107/transporter-node.git",
+      "type": "github"
+    },
+    "name": "transporter-node",
+    "raw": "transporter-node@github:satishsa1107/transporter-node",
+    "rawSpec": "github:satishsa1107/transporter-node",
+    "scope": null,
+    "spec": "github:satishsa1107/transporter-node",
+    "type": "hosted"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "git://github.com/satishsa1107/transporter-node.git#de17edd25367aa71bee710623c558ee2d04823d2",
+  "_shasum": "65f4a92440fed811d306bf85898d4bbe65900940",
+  "_shrinkwrap": null,
+  "_spec": "transporter-node@github:satishsa1107/transporter-node",
+  "_where": "/home/alexander/projects/hindsight/hindsight-connect",
+  "dependencies": {
+    "babel": "^5.8.21",
+    "babel-runtime": "^5.8.24",
+    "debug": "^2.2.0",
+    "isomorphic-fetch": "^2.1.1",
+    "webpack": "^1.11.0"
+  },
+  "devDependencies": {
+    "babel-core": "^5.8.22",
+    "babel-eslint": "^4.1.3",
+    "babel-loader": "^5.3.2",
+    "chai": "^3.2.0",
+    "chai-subset": "^1.1.0",
+    "eslint": "^1.4.3",
+    "eslint-plugin-babel": "^2.1.1",
+    "mocha": "^2.3.2"
+  },
+  "gitHead": "de17edd25367aa71bee710623c558ee2d04823d2",
+  "main": "lib/index.js",
+  "name": "transporter-node",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "scripts": {
+    "build": "rm -rf lib && babel --stage 0 --optional runtime src --out-dir lib",
+    "start": "babel-node --stage 0 --optional runtime ./src/debug.js"
+  },
+  "version": "1.1.23"
+}
